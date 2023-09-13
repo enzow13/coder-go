@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#UP-PAGE {
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+}
+
+#MAIN-WEBSITE {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 100px;
+    background-color: rebeccapurple;
+}
+
+#MAIN-TITLE {
+    font-size: 8rem;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #94BF36;
+}
+
+#DOWN-PAGE {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#CODING-DIV {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#P-MAIN_QUESTION {
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+
+#SUBTITLE-CODEAREA {
+    font-family: 'Poppins';
+    margin-bottom: 5px;
+    color: #A6360D;
+}
+
+#BTN-RUN {
+    margin-top: 50px;
+    padding: 15px;
+    border-radius: 60px;
+    border: 1px solid black;
+    background-color: transparent;
+    transition: 0.25s;
+}
+#BTN-RUN:hover {
+    cursor: pointer;
+    padding:  18px;
+    background-color: rgb(243, 243, 243);
+}
+
+.CodeMirror{
+    height: 400px; /* Altura da textarea */
+    width: 600px;
+    font-size: 14px; /* Tamanho da fonte */
+    border: 2px solid #ccc; /* Borda da textarea */
+}
