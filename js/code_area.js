@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     CodeMirror.fromTextArea(document.getElementById("CODE-AREA"), {
-      mode: 'javascript',
+      mode: 'python',
       theme: 'dracula',
       lineNumbers: true
     });

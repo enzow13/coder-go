@@ -1,0 +1,42 @@
+[
+    {
+        "number_question": "1",
+        "question": "Crie um programa que imprima a mensagem 'Olá, Mundo!' na tela."
+    },
+    {
+        "number_question": "2",
+        "question": "Crie um programa que peça ao usuário para digitar seu nome e imprima uma mensagem de boas-vindas com o nome inserido."
+    },
+    {
+        "number_question": "3",
+        "question": "Crie um programa que solicite dois números ao usuário e imprima a soma deles."
+    },
+    {
+        "number_question": "4",
+        "question": "Crie um programa que converta uma temperatura em graus Celsius para Fahrenheit. A fórmula é: F = C * 9/5 + 32."
+    },
+    {
+        "number_question": "5",
+        "question": "Crie um programa que peça ao usuário para digitar um número e imprima se o número é par ou ímpar."
+    },
+    {
+        "number_question": "6",
+        "question": "Crie um programa que calcule a área de um círculo. O usuário deve fornecer o raio como entrada. A fórmula da área do círculo é: A = π * r^2."
+    },
+    {
+        "number_question": "7",
+        "question": "Crie um programa que solicite três números ao usuário e imprima o maior deles."
+    },
+    {
+        "number_question": "8",
+        "question": "Crie um programa que imprima os números de 1 a 10 em uma única linha separados por espaços."
+    },
+    {
+        "number_question": "9",
+        "question": "Crie um programa que calcule o fatorial de um número. O usuário deve fornecer o número como entrada."
+    },
+    {
+        "number_question": "10",
+        "question": "Crie um programa que solicite uma frase ao usuário e conte o número de vogais (a, e, i, o, u) na frase."
+    }
+]

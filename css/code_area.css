@@ -1,0 +1,9 @@
+.CodeMirror{
+    height: 400px; /* Altura da textarea */
+    width: 600px;
+    font-size: 14px; /* Tamanho da fonte */
+    border: 2px solid #ccc; /* Borda da textarea */
+}
+.CodeMirror:hover{
+    cursor: text;
+}

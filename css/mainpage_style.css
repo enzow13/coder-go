@@ -3,12 +3,6 @@
     margin: 0;
 }
 
-#UP-PAGE {
-    display: flex;
-    justify-content: center;
-    padding-top: 120px;
-}
-
 #MAIN-WEBSITE {
     display: flex;
     justify-content: center;
@@ -17,13 +11,6 @@
     gap: 2rem;
     padding-top: 100px;
     background-color: rebeccapurple;
-}
-
-#MAIN-TITLE {
-    font-size: 8rem;
-    font-family: 'Poppins';
-    font-weight: 600;
-    color: #94BF36;
 }
 
 #DOWN-PAGE {
@@ -41,34 +28,33 @@
 }
 
 #P-MAIN_QUESTION {
-    font-family: 'Poppins';
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
     font-weight: 500;
-    color: rgb(0, 0, 0);
+    color: #2445A6;
 }
 
 #SUBTITLE-CODEAREA {
     font-family: 'Poppins';
     margin-bottom: 5px;
-    color: #A6360D;
+    font-weight: 400;
+    color: black;
 }
 
 #BTN-RUN {
     margin-top: 50px;
     padding: 15px;
     border-radius: 60px;
-    border: 1px solid black;
+    border: 2px solid #2445A6;
     background-color: transparent;
-    transition: 0.25s;
+    color: black;
+    transition: 0.30s;
+    font-weight: 500;
+    font-family: 'Poppins';
+    margin-bottom: 30px;
 }
 #BTN-RUN:hover {
     cursor: pointer;
-    padding:  18px;
-    background-color: rgb(243, 243, 243);
+    background-color: #2445A6;
+    color: white;
 }
 
-.CodeMirror{
-    height: 400px; /* Altura da textarea */
-    width: 600px;
-    font-size: 14px; /* Tamanho da fonte */
-    border: 2px solid #ccc; /* Borda da textarea */
-}
