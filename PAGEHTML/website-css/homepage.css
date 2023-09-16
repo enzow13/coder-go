@@ -1,0 +1,97 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url('/PAGEHTML/website-images/BACKGROUND.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+#main-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main-div {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    height: 260px;
+}
+
+#main-div div {
+    width: 300px;
+}
+
+#main-title {
+    font-size: 150px;
+    font-weight: 700;
+    letter-spacing: -4.5px;
+    color: #E4FFF8;
+}
+
+#main-btn {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.75px;
+    color: #E4FFF8;;
+    border: 3px solid #E4FFF8;
+    border-radius: 91px;
+    background-color: transparent;
+    width: 214px;
+    height: 58px;
+    transition: 0.35s;
+}
+
+#main-btn:hover {
+    cursor: pointer;
+    background-color: #2B9E80;
+    border: 3px solid #2B9E80;
+    color: #E4FFF8;
+}
+
+.main-h1-GO {
+    font-size: 150px;
+    font-weight: 700;
+    letter-spacing: -4.5px;
+    color: #E4FFF8;
+    animation: Teste 1.25s linear infinite;
+}
+
+@keyframes Teste {
+    0%, 100% {
+        font-family: 'Fuggles'; /* Defina sua primeira fonte aqui */
+    }
+    10% {
+        font-family: 'Times New Roman', Times, serif; /* Defina sua segunda fonte aqui */
+    }
+    20% {
+        font-family: Verdana, Geneva, Tahoma, sans-serif; /* Defina sua terceira fonte aqui */
+    }
+    30% {
+        font-family: Georgia, 'Times New Roman', Times, serif; /* Defina sua quarta fonte aqui */
+    }
+    40% {
+        font-family: 'Playfair Display'; /* Defina sua terceira fonte aqui */
+    }
+    50% {
+        font-family: 'Teko'; /* Defina sua terceira fonte aqui */
+    }
+    60% {
+        font-family: 'Archivo Black'; /* Defina sua quarta fonte aqui */
+    }
+    70% {
+        font-family: 'Permanent Marker'; /* Defina sua terceira fonte aqui */
+    }
+    80% {
+        font-family: 'Poppins'; /* Defina sua terceira fonte aqui */
+    }
+    90% {
+        font-family: 'Josefin Slab'; /* Defina sua quarta fonte aqui */
+    }
+}
