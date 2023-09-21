@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    background-color: white;
+    background-color: #030101;
 }
 /* #030101 */
 
@@ -63,10 +63,11 @@
     color: #E4FFF8;
 }
 
-.code-content_textarea1 {
-    outline: none;
+.CodeMirror {
+    border: 1px solid #ccc;
+    font-size: 16px; 
 }
 
-.code-content_textarea1:hover {
+.CodeMirror:hover {
     cursor: text;
 }

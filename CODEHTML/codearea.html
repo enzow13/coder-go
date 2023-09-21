@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fuggles&family=Permanent+Marker&family=Playfair+Display:wght@600&family=Teko:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="website-css/codearea.css">
+    <link rel="stylesheet" href="/codemirror/lib/codemirror.css">
+    <link rel="stylesheet" href="/codemirror/theme/darcula.css">
     <title>Coder GO</title>
 </head>
 <body>
@@ -18,15 +20,19 @@
         <p id="main-p"></p>
         <section id="code-content">
             <div id="code-content_div1" class="code-content_div">
-                <textarea id="CODE-AREA" class="code-content_textarea1"></textarea>
+                <textarea id="CODE-AREA"></textarea>
                 <button id="code-content_btn1" class="code-content_btn">RUN</button>
             </div>
             <div id="code-content_div2" class="code-content_div">
-                <textarea name="Teste" id="" class="code-content_textarea2"></textarea>
+                <textarea id="CODE-OUTPUT"></textarea>
                 <button id="code-content_btn2" class="code-content_btn">ENVIAR</button>
             </div>
         </section>
     </main>
     <script src="/CODEHTML/code/questions.js"></script>
+    <script src="code/code_area.js"></script>
+    <script src="/codemirror/lib/codemirror.js"></script>
+    <script src="/codemirror/mode/python/python.js"></script>
+    <script src="/codemirror/mode/javascript/javascript.js"></script>
 </body>
 </html>
