@@ -3,36 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="website-css/homepage.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Raleway:wght@600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fuggles&family=Permanent+Marker&family=Playfair+Display:wght@600&family=Teko:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="website-css/codearea.css">
-    <link rel="stylesheet" href="/codemirror/lib/codemirror.css">
-    <link rel="stylesheet" href="/codemirror/theme/darcula.css">
+    <link rel="stylesheet" href="website-css/style.css">
     <title>Coder GO</title>
 </head>
 <body>
     <main id="main-page">
         <h1 id="main-h1">EXERCICIO</h1>
-        <p id="main-p"></p>
-        <section id="code-content">
-            <div id="code-content_div1" class="code-content_div">
-                <textarea id="CODE-AREA"></textarea>
-                <button id="code-content_btn1" class="code-content_btn">RUN</button>
+        <p id="main-p"></p> 
+        <section id="section">
+            <div class="container-code">
+                <div class="upper-area-container-code">
+                    <button id="btn-run">Run</button>
+                </div>
+                <textarea name="Input Code"># Digite seu código aqui</textarea>
             </div>
-            <div id="code-content_div2" class="code-content_div">
-                <textarea id="CODE-OUTPUT"></textarea>
-                <button id="code-content_btn2" class="code-content_btn">ENVIAR</button>
+            <div class="container-code">
+                <div class="upper-area-container-code">
+                    <button id="btn-compile">OUTPUT</button>
+                </div>
+                <textarea id="textarea-output-code" name="Output Code" readonly></textarea>
             </div>
         </section>
     </main>
-    <script src="/CODEHTML/code/questions.js"></script>
-    <script src="code/code_area.js"></script>
-    <script src="/codemirror/lib/codemirror.js"></script>
-    <script src="/codemirror/mode/python/python.js"></script>
-    <script src="/codemirror/mode/javascript/javascript.js"></script>
+    <script type="module" src="/CODEHTML/code/code.js"></script>
 </body>
 </html>
