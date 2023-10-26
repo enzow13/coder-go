@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fuggles&family=Permanent+Marker&family=Playfair+Display:wght@600&family=Teko:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="website-css/style.css">
+    <link rel="stylesheet" href="/codemirror/lib/codemirror.css">
     <title>Coder GO</title>
 </head>
 <body>
@@ -20,7 +21,7 @@
                 <div class="upper-area-container-code">
                     <button id="btn-run">Run</button>
                 </div>
-                <textarea name="Input Code"># Digite seu código aqui</textarea>
+                <textarea name="Input Code" id="Input Code"># Digite seu código aqui</textarea>
             </div>
             <div class="container-code">
                 <div class="upper-area-container-code">
@@ -30,6 +31,9 @@
             </div>
         </section>
     </main>
+    <script src="/codemirror/lib/codemirror.js"></script>
+    <script src="/codemirror/mode/javascript/javascript.js"></script>
     <script type="module" src="/CODEHTML/code/code.js"></script>
+    <script src="/CODEHTML/code/code_area.js"></script>
 </body>
 </html>
