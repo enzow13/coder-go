@@ -1,0 +1,76 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #030101;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    height: 85vh;
+}
+
+#main-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    gap: 5rem;
+    
+}
+
+#title {
+    color: #E4FFF8;
+    font-size: 45px;
+    color: #E4FFF8;
+    text-align: center;
+    letter-spacing: -1.35px;
+    width: 456px;
+    padding-top: 2rem;
+}
+
+#section-levels {
+    display: flex;
+    gap: 5rem;
+}
+
+.choose-level {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.desc-level {
+    width: 393px;
+    height: 303px;
+    background: #D9D9D9;
+}
+
+/* LEVEL NAME CSS & ANIMATION */
+
+.level-name {
+    color: #E4FFF8;
+    text-decoration: none;
+    font-size: 30px;
+    letter-spacing: -0.9px;
+    transition: 0.25s;
+}
+
+.level-name:hover {
+    text-decoration: underline;
+}
+
+/* BTN HELP ("NÃO SEI NADA") */
+
+#help-btn {
+    color: #EC1B1B;
+    text-decoration: none;
+    font-size: 30px;
+    letter-spacing: -0.9px;
+    margin-top: 100px;
+}
+
+#help-btn:hover {
+    text-decoration: underline;
+}
