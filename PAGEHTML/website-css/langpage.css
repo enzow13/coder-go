@@ -1,0 +1,94 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #030101;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    height: 85vh;
+}
+
+#main-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    gap: 5rem;
+    
+}
+
+#title {
+    color: #E4FFF8;
+    font-size: 45px;
+    color: #E4FFF8;
+    text-align: center;
+    letter-spacing: -1.35px;
+    width: 456px;
+    padding-top: 2rem;
+}
+
+#section-lang {
+    display: flex;
+    gap: 20rem;
+}
+
+.choose-lang {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;    
+}
+
+.p-choose {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+    color: #E4FFF8;
+}
+
+.code-language {
+    color: #E4FFF8;
+    text-decoration: none;
+    font-size: 35px;
+    letter-spacing: -1.05px;
+    transition: 0.25s;
+}
+
+.code-language:hover {
+    transform: scale(1.2);
+}
+
+/* ANIMATION LANGUAGES NAME COLOR */
+
+        /* PYTHON */
+#lang-py {
+    color: #E4FFF8;
+    text-decoration: none;
+    font-size: 35px;
+    letter-spacing: -1.05px;
+    transition: 0.25s;
+}
+
+#lang-py:hover {
+    transform: scale(1.2);
+    background: linear-gradient(90deg, rgba(48,105,152,1) 45%, rgba(255,212,59,1) 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+        /* JAVASCRIPT */
+#lang-js {
+    color: #E4FFF8;
+    text-decoration: none;
+    font-size: 35px;
+    letter-spacing: -1.05px;
+    transition: 0.25s;
+}
+
+#lang-js:hover {
+    transform: scale(1.2);
+    color: #fcdc00;
+}
