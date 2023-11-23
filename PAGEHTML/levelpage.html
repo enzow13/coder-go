@@ -32,7 +32,16 @@
             </div>
         </section>
         <a href="#" id="help-btn">Não sei nada</a>
-        
     </main>
+    <script>
+        window.onload = function() {
+            var code_lang = localStorage.getItem('lang');
+            if (code_lang) {
+                alert(code_lang);
+                console.log(code_lang)
+                localStorage.removeItem('lang'); // Limpa a mensagem após a leitura
+            }
+        };
+    </script>
 </body>
 </html>

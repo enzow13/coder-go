@@ -20,8 +20,8 @@
         <section id="section-lang">
             <div class="choose-lang">
                 <p class="p-choose">Linguagens disponíveis</p>
-                <a href="#" id="lang-py">Pyt<span>hon</span></a>
-                <a href="#" id="lang-js">Javascript</a>
+                <a href="/PAGEHTML/levelpage.html" id="lang-py" onclick="GetCodeLanguage('lang-py')">Pyt<span>hon</span></a>
+                <a href="/PAGEHTML/levelpage.html" id="lang-js" onclick="GetCodeLanguage('lang-js')">Javascript</a>
             </div>
             <div class="choose-lang">
                 <p class="p-choose">Ainda não temos!</p>
@@ -32,7 +32,14 @@
                 <a href="#" class="code-language">Kotlin</a>
             </div>
         </section>
-        
     </main>
+    <script>
+        function GetCodeLanguage(lang) {
+            code_lang = document.getElementById(lang)
+            lang.addEventListener('click', () => {
+                localStorage.setItem('lang', lang);
+            })
+        }
+    </script>
 </body>
 </html>
