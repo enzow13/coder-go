@@ -1,0 +1,10 @@
+#editor {
+    width: 680px;
+    height: 540px;
+}
+
+#terminal {
+    width: 500px;
+    height: 540px;
+    background-color: gray;
+}

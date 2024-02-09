@@ -9,31 +9,49 @@
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fuggles&family=Permanent+Marker&family=Playfair+Display:wght@600&family=Teko:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="website-css/style.css">
-    <link rel="stylesheet" href="/codemirror/lib/codemirror.css">
+    <link rel="stylesheet" type="text/css" href="website-css/editor-style.css" media="screen">
     <title>Coder GO</title>
 </head>
 <body>
-    <main id="main-page">
-        <h1 id="main-h1">EXERCICIO</h1>
-        <p id="main-p"></p> 
-        <section id="section">
-            <div class="container-code">
-                <div class="upper-area-container-code">
-                    <button id="btn-run">Run</button>
+    <main>
+        <header>
+            <div class="header-div" id="header-div1">
+                <h1 id="h1-exc">Exercício</h1>
+                <div id="div-p-lang-dif">
+                    <p class="p-header-div1" id="p-language">Linguagem: Javascript</p>
+                    <p class="p-header-div1" id="p-dificulty">Dificuldade: Iniciante</p>
                 </div>
-                <textarea name="Input Code" id="Input Code"># Digite seu código aqui</textarea>
             </div>
-            <div class="container-code">
-                <div class="upper-area-container-code">
-                    <button id="btn-compile">OUTPUT</button>
+            <div class="header-div" id="header-div2">
+                <p id="p-exercise"></p>
+            </div>
+            <div class="header-div" id="header-div3">
+                NOT YET
+            </div>
+        </header>
+        <section id="section-main">
+            <div id="language-items"></div>
+            <section id="section-code_area">
+                <div id="section-up_bar">
+                    <button id="btn-send_code">AAA</button>
+                    <button id="btn-run_terminal"><img src="/feather-images/play_btn.png" alt="Run code" width="35px" height="35px"></button>
                 </div>
-                <textarea id="textarea-output-code" name="Output Code" readonly></textarea>
-            </div>
+                <div id="section-code">
+                    <div id="editor">//Resolva o exercício aqui!</div>
+                    <div id="terminal">aqui é o terminal</div>
+                </div>
+            </section>
         </section>
+        
+
     </main>
-    <script src="/codemirror/lib/codemirror.js"></script>
-    <script src="/codemirror/mode/javascript/javascript.js"></script>
     <script type="module" src="/CODEHTML/code/code.js"></script>
     <script src="/CODEHTML/code/code_area.js"></script>
+    <script src="/ace-builds/src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+        var editor = ace.edit("editor");
+        editor.setTheme("ace/theme/monokai");
+        editor.session.setMode("ace/mode/javascript");
+    </script>
 </body>
 </html>
