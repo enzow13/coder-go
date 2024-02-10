@@ -33,12 +33,12 @@
             <div id="language-items"></div>
             <section id="section-code_area">
                 <div id="section-up_bar">
-                    <button id="btn-send_code">AAA</button>
-                    <button id="btn-run_terminal"><img src="/feather-images/play_btn.png" alt="Run code" width="35px" height="35px"></button>
+                    <button id="btn-send_code">Enviar código</button>
+                    <button id="btn-run_terminal" onclick="executarCodigo()"><img src="/feather-images/play_btn.png" alt="Run code" width="35px" height="35px"></button>
                 </div>
                 <div id="section-code">
                     <div id="editor">//Resolva o exercício aqui!</div>
-                    <div id="terminal">aqui é o terminal</div>
+                    <div id="div-terminal"><p id="terminal">></p></div>
                 </div>
             </section>
         </section>
@@ -46,12 +46,21 @@
 
     </main>
     <script type="module" src="/CODEHTML/code/code.js"></script>
-    <script src="/CODEHTML/code/code_area.js"></script>
     <script src="/ace-builds/src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
     <script>
         var editor = ace.edit("editor");
         editor.setTheme("ace/theme/monokai");
         editor.session.setMode("ace/mode/javascript");
+
+        function executarCodigo() {
+            try {
+                let codigo = editor.getValue();
+                let resultado = eval(codigo);
+                document.getElementById("terminal").innerText = `> ${resultado}`;
+            } catch(error) {
+                console.log(`Erro: ${error}`)
+            };
+        };
     </script>
 </body>
 </html>

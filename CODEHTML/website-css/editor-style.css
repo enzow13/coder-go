@@ -3,8 +3,16 @@
     height: 540px;
 }
 
-#terminal {
+#div-terminal {
     width: 500px;
     height: 540px;
-    background-color: gray;
+    background-color: rgb(53, 53, 53);
+}
+
+#terminal {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    width: 90%;
 }
